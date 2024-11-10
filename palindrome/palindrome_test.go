@@ -6,9 +6,9 @@ import (
 )
 
 func TestPalindrome(t *testing.T) {
-	assert.Equal(t, IsPalindrome(121), true)
-	assert.Equal(t, IsPalindrome(-121), false)
-	assert.Equal(t, IsPalindrome(101101), true)
-	assert.Equal(t, IsPalindrome(1), true)
-	assert.Equal(t, IsPalindrome(167854378326), false)
+	assert.Equal(t, true, IsPalindrome(121))
+	assert.Equal(t, false, IsPalindrome(-121))
+	assert.Equal(t, true, IsPalindrome(101101))
+	assert.Equal(t, true, IsPalindrome(1))
+	assert.Equal(t, false, IsPalindrome(167854378326))
 }
